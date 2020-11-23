@@ -36,7 +36,7 @@ HRESULT __stdcall hkPresent(IDXGISwapChain* pSwapChain, UINT SyncInterval, UINT 
 
 		uintptr_t fiveBase = (uintptr_t)CustomAPI::GetModuleA("gta-core-five.dll");
 
-		*(bool*)(fiveBase + 0xDA898) = 1;
+		*(bool*)(fiveBase + 0xDA948) = 1;
 
 	}
 
